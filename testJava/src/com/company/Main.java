@@ -18,21 +18,6 @@ public class Main {
         }
     }
 
-    //metodo test 3
-    public static void test3(){
-        //array de prueba
-        int myArray[]={23,2,645,82,74,12,344};
-        int aux=0;
-        
-        for(int i=0; i<myArray.length; i++){
-
-            aux=(myArray[i]>aux) ? myArray[i] : aux;
-
-        }
-        //imprimir resultado
-        System.out.println(aux);
-    }
-
     public static void cuadrado(){
         Scanner teclado = new Scanner(System.in);
 
