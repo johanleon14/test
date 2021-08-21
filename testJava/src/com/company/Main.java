@@ -18,17 +18,6 @@ public class Main {
         }
     }
 
-    public static void test2(){
-        int myArray[]={15,27,344,67,67,12,344};
-        int aux=0;
-
-        for(int i=0; i<myArray.length; i++){
-
-            aux=(myArray[i]>aux) ? myArray[i] : aux;
-
-        }
-        System.out.println(aux);
-    }
     //metodo test 3
     public static void test3(){
         //array de prueba
